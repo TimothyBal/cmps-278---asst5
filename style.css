@@ -1,0 +1,74 @@
+body {
+  font-size: 17pt;
+}
+.order-container {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.order-slider {
+  display: flex;
+}
+.pizza-img {
+  display: flex;
+  justify-content: center;
+}
+.pizza-img img {
+  width: 100px;
+  transition: all 1s;
+}
+ul {
+  list-style: none;
+}
+.payment-list {
+  display: flex;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+form input,
+select,
+textarea {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 6px;
+  border: 2px solid white;
+}
+#OrderSummary {
+  width: 50vw;
+  margin-left: 25vw;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: green;
+  border-style: solid;
+  border-width: thick;
+  background-color: #ffffff;
+}
+section {
+  display: none;
+  min-height: 90vh;
+}
+section.active {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.red {
+  background-color: #e93a57;
+}
+.cyan {
+  background-color: #01dddd;
+}
+.green {
+  background-color: #3fc38e;
+}
